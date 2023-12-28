@@ -35,7 +35,7 @@ export const Projects = () => {
                         As a passionate Web Developer, I strive to create web applications that are not only functional and user-friendly, but also visually appealing. I have a keen interest in the latest web technologies and enjoy the challenge of learning new skills. In addition to web development, I am also a Cyber Security Enthusiast. I believe that in today's digital age, it's crucial to prioritize security in every aspect of development. I am always eager to implement the best security practices in my projects to ensure the safety and privacy of users.
                     </p>
                     <TabContainer id="projects-tabs" defaultActiveKey="first">
-                        <Nav variant="pills" defaultActiveKey="/home">
+                        <Nav variant="pills"  className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item>
                                 <Nav.Link eventKey="first">Tab 1</Nav.Link>
                             </Nav.Item>
