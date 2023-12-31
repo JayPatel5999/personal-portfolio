@@ -46,9 +46,9 @@ export const NavBar = () => {
             </Nav>
             <span className='navbar-text'>
                 <div className='social-icon'>
-                    <a href='#'><img src={navIcon1} alt='' /></a>
-                    <a href='#'><img src={navIcon2} alt='' /></a>
-                    <a href='#'><img src={navIcon3} alt='' /></a>
+                    <a href='https://www.linkedin.com/in/jay-patel-a09995113/'><img src={navIcon1} alt="Nav Icon 1" /></a>
+                    <a href='https://www.facebook.com/profile.php?id=100005941031416'><img src={navIcon2} alt='Nav Icon 2' /></a>
+                    <a href='https://www.instagram.com/_jay_5999_/'><img src={navIcon3} alt='Nav Icon 3' /></a>
                 </div>
                 <button className='vvd' onClick={() => console.log('connect')}>
                     <span>
